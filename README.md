@@ -1,2 +1,2 @@
 # game-I-guess
-just a game, this is a test v2
+Just a game I want to make to play with my friends.
