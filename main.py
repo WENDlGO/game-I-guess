@@ -9,6 +9,8 @@ player4 = [False,0,0]
 
 
 
+
+
 pyxel.init(160, 120)
 
 def update():
@@ -37,9 +39,12 @@ def update():
 def draw():
     global player1
     pyxel.cls(0)
-    p.rect(10,10,10,10,13)
+    #p.rect(10,10,10,10,13)
+    dungeon_gen()
     if player1[0]:
         draw_player(1)
+
+
 def draw_player(player):
     global player1
     if player == 1:
@@ -58,5 +63,25 @@ def check_walkable(x,y):
     else:
         return False
 
+def dungeon_gen():
+    for i in range(0,200,10):
+        for j in range(0,200,10):
+            p.rect(i, j, 10, 10, 13)
+
+
+    '''
+    p.rect(10,10,10,10,13)
+    p.rect(20,10,10,10,13)
+    p.rect(30,10,10,10,13)
+    p.rect(40,10,10,10,13)
+    p.rect(40,20,10,10,13)
+    p.rect(40,30,10,10,13)
+    p.rect(40,40,10,10,13)
+    p.rect(30,40,10,10,13)
+    p.rect(20,40,10,10,13)
+    p.rect(10,40,10,10,13)
+    p.rect(10,30,10,10,13)
+    p.rect(10,20,10,10,13)
+    '''
 
 pyxel.run(update, draw)
