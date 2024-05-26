@@ -1,4 +1,4 @@
-# game-I-guess 
+# Just Some Info
 I don't really know what I'm doing and am learning as I go, I know some python but have not really made anything before, I just thought it would be fun to make a game I could play with my friends. 
 
 I know I want the game to focus dungeon exploration and have some more in depth systems but other than that I'm not really sure. I like playing For the King, but I don't like how little it's focused on being a party, if you get a good weapon you can solo basically everything and just ened up running around attacking everything you can see. I want my game to be more party focused and less every man for them selves. 
